@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Coming Soon', cursive;
+}
+
+div[id*="container"] {
+    background-image: url("https://images.unsplash.com/photo-1487875961445-47a00398c267?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");/*https://images.unsplash.com/photo-1454779132693-e5cd0a216ed3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60*/
+    background-size: 100% 480px;
+    height: 30rem;
+    width: 100%;
+    display: inline-block;
+} 
+
+div[class*="navBar"] {
+    height: 1.75rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.25px solid white;
+}
+
+.navBar span {
+    padding: 0.375rem;
+    font-size: 1.125rem;
+}
+
+.navBar span a {
+    align-self: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navBar span a:hover{
+    color: #DDDDDD;
+}
+
+.navBar span a:active{
+    color: #BBBBBB;
+}
+
+.navBar span[class*="navOrg"] a {
+    color: lawngreen;
+}
+
+.navBar span[class*="navOrg"] a:hover {
+    color: #68e800;
+}
+
+.navBar span[class*="navOrg"] a:active {
+    color: #54d400;
+}
+
+.mainContent {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+button {
+    font-family: 'Coming Soon', cursive;
+    background-color: lawngreen;;
+    border-radius: 5px;
+    margin-top: 2px;
+    border: none;
+    color: #FFFFFF;
+    border-right: 0.03125rem solid rgb(25, 65, 185);
+    border-bottom: 0.03125rem solid rgb(25, 65, 185);
+    padding: 0.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(25, 65, 185);
+}
+
+a button:hover {
+    background-color: #68e800;
+    color: #DDDDDD;
+    border-right: 0.03125rem solid rgb(25, 65, 185);
+    border-bottom: 0.03125rem solid rgb(25, 65, 185);
+}
+
+a button:active {
+    background-color: #54d400;
+    color: #BBBBBB;
+    border-right: 0.03125rem solid rgb(25, 65, 185);
+    border-bottom: 0.03125rem solid rgb(25, 65, 185);
+}
+
+.mainContent div[class*=heading1] {
+    border-right: 2.5px solid #ffffff;
+    color: #7dfa00;
+    text-shadow: 0.0625rem 0.0625rem 0.625rem royalblue;
+}
+
+.mainContent div {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.mainContent div p {
+    font-size: 1.0625rem;
+}
+
+.mainContent div[class*="heading2"]{
+    border-left: 2.5px solid #ffffff;
+    color: rgb(127, 255, 0);
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem royalblue;
+}
+
+.mainContent div p[class*="hidText"] {
+    text-shadow: 2px 2px 1.5px royalblue;
+}
