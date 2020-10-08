@@ -109,3 +109,21 @@ a button:active {
 .mainContent div p[class*="hidText"] {
     text-shadow: 2px 2px 1.5px royalblue;
 }
+
+.mainContent2 {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: lawngreen;
+}
+
+.mainContent2 div {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.mainContent2 div[class*=heading1] {
+    border-right: 2.5px solid #ffffff;
+    color: #7dfa00;
+    text-shadow: 0.0625rem 0.0625rem 0.625rem royalblue;
+}
